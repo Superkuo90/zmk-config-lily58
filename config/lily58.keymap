@@ -40,11 +40,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                           &trans    &trans     &trans     &trans    &trans    &trans
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                 &kp F7    &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
-&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                              &kp HOME  &kp PG_DN  &kp PG_UP  &kp END   &kp RPAR  &kp TILDE
-&trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans         &kp PLUS  &kp MINUS  &kp EQUAL  &kp LBRC  &kp RBRC  &kp PIPE
-                                        &trans        &trans        &trans        &trans    &kp C_AC_FIND  &trans    &trans     &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &trans    &trans     &trans     &trans    &trans    &trans
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                   &kp F7    &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
+&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                                &kp HOME  &kp PG_UP  &kp PG_DN  &kp END   &kp RPAR  &kp TILDE
+&trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans           &kp PLUS  &kp MINUS  &kp EQUAL  &kp LBRC  &kp RBRC  &kp PIPE
+                                        &trans        &trans        &trans        &trans    &kp C_AC_SEARCH  &trans    &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -59,10 +59,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_SEARCH  &kp C_VOICE_COMMAND                                        &kp C_SLEEP  &trans          &trans            &trans      &trans  &trans
-&trans  &trans                &kp UP_ARROW          &trans                             &trans           &trans                                                     &trans       &trans          &trans            &trans      &kp N0  &trans
-&trans  &kp LEFT_ARROW        &kp DOWN_ARROW        &kp RIGHT_ARROW                    &trans           &trans                                                     &trans       &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans  &trans
-&trans  &trans                &trans                &trans                             &trans           &trans               &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &trans       &trans          &trans            &trans      &trans  &trans
+&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_SEARCH  &kp C_VOICE_COMMAND                                        &kp C_SLEEP  &trans          &trans          &trans           &trans  &trans
+&trans  &trans                &kp UP_ARROW          &trans                             &trans           &trans                                                     &trans       &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &kp LEFT_ARROW        &kp DOWN_ARROW        &kp RIGHT_ARROW                    &trans           &trans                                                     &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans                &trans                &trans                             &trans           &trans               &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &trans       &kp C_PREV      &kp C_PP        &kp C_NEXT       &trans  &trans
                                                     &trans                             &trans           &trans               &kp C_MUTE           &kp C_MUTE       &trans       &trans          &trans
             >;
 
