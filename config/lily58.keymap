@@ -60,9 +60,9 @@
 
             bindings = <
 &kp RG(LS(V))  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC       &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_SEARCH        &kp C_VOICE_COMMAND                                                 &kp C_SLEEP  &trans          &trans          &trans           &trans         &trans
-&trans         &kp HASH              &kp NUMBER_7               &kp NUMBER_8                       &kp NUMBER_9           &kp PERCENT                                                         &trans       &kp LG(C)       &kp UP_ARROW    &kp LG(V)        &kp LG(Z)      &trans
-&kp LCTRL      &kp EXCLAMATION       &mt LEFT_COMMAND NUMBER_4  &mt LEFT_SHIFT NUMBER_5            &mt LEFT_ALT NUMBER_6  &kp QUESTION                                                        &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans
-&trans         &kp COLON             &kp NUMBER_1               &kp NUMBER_2                       &kp NUMBER_3           &kp EQUAL            &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &trans       &kp PLUS        &kp MINUS       &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp RIGHT_SHIFT
+&kp AT_SIGN    &kp HASH              &kp NUMBER_7               &kp NUMBER_8                       &kp NUMBER_9           &kp PERCENT                                                         &trans       &kp LG(C)       &kp UP_ARROW    &kp LG(V)        &kp LG(Z)      &kp MINUS
+&kp LCTRL      &kp EXCLAMATION       &mt LEFT_COMMAND NUMBER_4  &mt LEFT_SHIFT NUMBER_5            &mt LEFT_ALT NUMBER_6  &kp QUESTION                                                        &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RG(P)      &kp DOUBLE_QUOTES
+&trans         &kp COLON             &kp NUMBER_1               &kp NUMBER_2                       &kp NUMBER_3           &kp EQUAL            &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &trans       &kp PLUS        &kp MINUS       &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp RS(RETURN)
                                                                 &trans                             &trans                 &kp NUMBER_0         &kp LEFT_SHIFT          &trans                 &trans       &trans          &trans
             >;
 
