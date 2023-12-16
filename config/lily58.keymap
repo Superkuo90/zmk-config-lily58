@@ -42,7 +42,7 @@
             bindings = <
 &trans  &trans         &trans  &trans  &trans           &trans                                         &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_SEL 3         &bt BT_SEL 4      &bt BT_CLR
 &trans  &kp LG(LC(Q))  &kp F7  &kp F8  &kp F9           &kp F10                                        &trans                &kp LC(LEFT)          &kp UP_ARROW          &kp LC(RIGHT_ARROW)  &trans            &trans
-&trans  &trans         &kp F4  &kp F5  &mt LEFT_ALT F6  &kp F11                                        &kp RG(C_AC_SEARCH)   &kp LEFT_ARROW        &kp DOWN_ARROW        &kp RIGHT_ARROW      &kp LC(UP_ARROW)  &trans
+&trans  &trans         &kp F4  &kp F5  &mt LEFT_ALT F6  &kp F11                                        &kp C_AC_SEARCH       &kp LEFT_ARROW        &kp DOWN_ARROW        &kp RIGHT_ARROW      &kp LC(UP_ARROW)  &trans
 &trans  &trans         &kp F1  &kp F2  &kp F3           &kp F12  &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_5))  &trans               &trans            &trans
                                &trans  &trans           &trans   &trans               &trans           &kp C_MUTE            &kp K_PLAY_PAUSE      &trans
             >;
