@@ -104,11 +104,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &kp PLUS                           &trans        &trans        &trans        &trans        &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &kp MINUS                          &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans
-&to 0   &trans  &trans  &trans  &kp COLON  &kp KP_MULTIPLY                    &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &kp SLASH        &trans    &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-                        &trans  &trans     &trans           &trans    &trans  &kp NUMBER_0  &trans        &trans
+&trans  &trans  &trans  &trans  &trans     &kp PLUS                        &trans        &trans        &trans        &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &kp MINUS                       &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans
+&to 0   &trans  &trans  &trans  &kp COLON  &kp SLASH                       &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &kp ASTERISK  &trans    &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                        &trans  &trans     &trans        &trans    &trans  &kp NUMBER_0  &trans        &trans
             >;
         };
     };
