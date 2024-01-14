@@ -16,6 +16,7 @@
             bindings = <&kp LS(LG(NUMBER_4))>;
             key-positions = <37 38 37 38>;
             layers = <0>;
+            timeout-ms = <50>;
         };
 
         Paste {
