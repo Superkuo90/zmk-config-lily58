@@ -15,16 +15,19 @@
         Screenshot {
             bindings = <&kp LS(LG(NUMBER_4))>;
             key-positions = <37 38 37 38>;
+            layers = <0>;
         };
 
         Paste {
             bindings = <&kp K_PASTE>;
             key-positions = <41 40>;
+            layers = <0>;
         };
 
         Copy {
             bindings = <&kp K_COPY>;
             key-positions = <38 39>;
+            layers = <0>;
         };
     };
 
