@@ -63,11 +63,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans         &kp F10  &kp F11  &kp F12  &bt BT_CLR                                                   &bt BT_SEL 0          &bt BT_SEL 1            &bt BT_SEL 2             &bt BT_SEL 3         &bt BT_SEL 4      &trans
-&trans  &kp LG(LC(Q))  &kp F7   &kp F8   &kp F9   &trans                                                       &kp C_PP              &kp LC(LEFT)            &kp UP_ARROW             &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)  &trans
-&trans  &trans         &kp F4   &kp F5   &kp F6   &trans                                                       &kp C_AC_SEARCH       &kp LA(LEFT_ARROW)      &kp DOWN_ARROW           &kp LA(RIGHT_ARROW)  &kp COLON         &kp DOUBLE_QUOTES
-&trans  &trans         &kp F1   &kp F2   &kp F3   &kp LG(V)   &mt LEFT_ALT C_VOLUME_DOWN    &kp C_VOLUME_UP    &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_3))    &kp LS(LG(NUMBER_5))     &trans               &trans            &kp LS(RETURN)
-                                &trans   &trans   &trans      &trans                        &kp LA(BACKSPACE)  &kp C_MUTE            &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))
+&trans  &kp F1         &kp F2  &kp F3     &kp F4    &kp F5                                                                 &kp F6                &kp F7                  &kp F8                   &kp F9               &kp F10           &kp F11
+&trans  &kp LG(LC(Q))  &trans  &mkp MB4   &mkp MB5  &kp LG(LS(NUMBER_4))                                                   &kp C_PP              &kp HOME                &kp UP_ARROW             &kp END              &kp LC(UP_ARROW)  &kp F12
+&trans  &trans         &trans  &trans     &tog 2    &trans                                                                 &kp C_AC_SEARCH       &kp LA(LEFT_ARROW)      &kp DOWN_ARROW           &kp LA(RIGHT_ARROW)  &kp COLON         &kp DOUBLE_QUOTES
+&trans  &trans         &trans  &kp LG(C)  &trans    &kp LG(V)             &mt LEFT_ALT C_VOLUME_DOWN    &kp C_VOLUME_UP    &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_3))    &kp LS(LG(NUMBER_5))     &trans               &trans            &kp LS(RETURN)
+                               &trans     &trans    &trans                &trans                        &kp LA(BACKSPACE)  &kp C_MUTE            &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -82,11 +82,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp RG(LS(V))  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_SEARCH        &kp C_VOICE_COMMAND                                                 &kp C_SLEEP    &trans          &trans          &trans           &trans         &kp LG(P)
-&kp AT_SIGN    &kp HASH              &kp NUMBER_7          &kp NUMBER_8                       &kp NUMBER_9           &kp NUMBER_0                                                        &trans         &kp HOME        &kp UP_ARROW    &kp END          &trans         &trans
-&trans         &kp EQUAL             &kp NUMBER_4          &kp NUMBER_5                       &mt LEFT_ALT NUMBER_6  &kp QUESTION                                                        &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp COLON      &kp DOUBLE_QUOTES
-&trans         &kp COLON             &kp NUMBER_1          &kp NUMBER_2                       &kp NUMBER_3           &kp EXCLAMATION      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PLUS        &kp MINUS       &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp RS(RETURN)
-                                                           &trans                             &trans                 &trans               &trans                  &trans                 &trans         &trans          &trans
+&kp RG(LS(V))  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_SEARCH        &kp C_VOICE_COMMAND                                                 &kp C_SLEEP    &trans              &trans          &trans               &trans         &kp LG(P)
+&trans         &kp DOLLAR            &kp HASH              &kp AT_SIGN                        &kp AMPERSAND          &trans                                                              &trans         &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp RC(RIGHT_ARROW)  &trans         &trans
+&trans         &trans                &kp COLON             &kp EQUAL                          &kp RIGHT_PARENTHESIS  &kp QUESTION                                                        &trans         &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp COLON      &kp DOUBLE_QUOTES
+&trans         &trans                &trans                &trans                             &trans                 &kp EXCLAMATION      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PLUS            &kp MINUS       &kp KP_MULTIPLY      &kp KP_DIVIDE  &kp RS(RETURN)
+                                                           &trans                             &trans                 &trans               &trans                  &trans                 &trans         &trans              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -104,11 +104,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &kp PLUS                        &trans        &trans        &trans        &trans        &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &kp MINUS                       &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans
-&to 0   &trans  &trans  &trans  &kp COLON  &kp SLASH                       &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &kp ASTERISK  &trans    &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-                        &trans  &trans     &trans        &trans    &trans  &kp NUMBER_0  &trans        &trans
+&trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 0                       &trans        &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans        &trans        &trans        &trans        &trans                             &kp PERCENT   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
+&to 0   &trans        &trans        &trans        &trans        &trans                             &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH     &kp COLON
+&trans  &trans        &trans        &trans        &trans        &trans        &trans    &trans     &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &trans
+                                    &trans        &trans        &trans        &to 0     &kp EQUAL  &kp NUMBER_0  &trans        &trans
             >;
         };
     };
