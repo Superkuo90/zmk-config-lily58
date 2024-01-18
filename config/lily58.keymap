@@ -63,11 +63,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &kp F1         &kp F2  &kp F3     &kp F4  &kp F5                                                                 &kp F6                &kp F7                  &kp F8                   &kp F9               &kp F10           &kp F11
-&trans  &kp LG(LC(Q))  &trans  &trans     &trans  &kp LG(LS(NUMBER_4))                                                   &kp C_PP              &kp RG(LEFT_ARROW)      &kp UP_ARROW             &kp RG(RIGHT_ARROW)  &kp LC(UP_ARROW)  &kp F12
-&trans  &trans         &trans  &trans     &mo 2   &trans                                                                 &kp C_AC_SEARCH       &kp LA(LEFT_ARROW)      &kp DOWN_ARROW           &kp LA(RIGHT_ARROW)  &kp COLON         &kp DOUBLE_QUOTES
-&trans  &trans         &trans  &kp LG(C)  &trans  &kp LG(V)             &mt LEFT_ALT C_VOLUME_DOWN    &kp C_VOLUME_UP    &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_3))    &kp LS(LG(NUMBER_5))     &trans               &trans            &kp LS(RETURN)
-                               &trans     &trans  &trans                &trans                        &kp LA(BACKSPACE)  &kp C_MUTE            &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))
+&trans  &kp F1         &kp F2  &kp F3         &kp F4        &kp F5                                                                 &kp F6                &kp F7                  &kp F8                   &kp F9               &kp F10           &kp F11
+&trans  &kp LG(LC(Q))  &trans  &kp LG(MINUS)  &kp LG(PLUS)  &kp LG(LS(NUMBER_4))                                                   &kp C_PP              &kp RG(LEFT_ARROW)      &kp UP_ARROW             &kp RG(RIGHT_ARROW)  &kp LC(UP_ARROW)  &kp F12
+&trans  &trans         &trans  &trans         &mo 2         &trans                                                                 &kp C_AC_SEARCH       &kp LA(LEFT_ARROW)      &kp DOWN_ARROW           &kp LA(RIGHT_ARROW)  &kp COLON         &kp DOUBLE_QUOTES
+&trans  &trans         &trans  &kp LG(C)      &trans        &kp LG(V)             &mt LEFT_ALT C_VOLUME_DOWN    &kp C_VOLUME_UP    &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_3))    &kp LS(LG(NUMBER_5))     &trans               &trans            &kp LS(RETURN)
+                               &trans         &trans        &trans                &trans                        &kp LA(BACKSPACE)  &kp C_MUTE            &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
