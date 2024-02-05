@@ -46,7 +46,7 @@
             bindings = <
 &kp ESC    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                            &kp N6           &kp N7          &kp N8           &kp N9   &kp N0         &kp GRAVE
 &kp TAB    &kp Q   &kp W   &kp F   &kp P   &kp B                                                             &kp J            &kp L           &kp U            &kp Y    &kp SEMICOLON  &kp MINUS
-&to 4      &kp A   &kp R   &kp S   &kp T   &kp G                                                             &kp M            &kp N           &kp E            &kp I    &kp O          &kp SINGLE_QUOTE
+&mo 4      &kp A   &kp R   &kp S   &kp T   &kp G                                                             &kp M            &kp N           &kp E            &kp I    &kp O          &kp SINGLE_QUOTE
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp D   &kp V             &mt LEFT_ALT LEFT_BRACKET    &kp RIGHT_BRACKET  &kp K            &kp H           &kp COMMA        &kp DOT  &kp SLASH      &kp RETURN
                            &to 3   &trans  &kp LEFT_COMMAND  &lt 1 SPACE                  &lt 2 BACKSPACE    &sk RIGHT_SHIFT  &kp LEFT_ARROW  &kp RIGHT_ARROW
             >;
@@ -66,7 +66,7 @@
 &trans  &kp F1         &kp F2  &kp F3         &kp F4        &kp F5                                                                 &kp F6                &kp F7                  &kp F8                   &kp F9               &kp F10           &kp F11
 &trans  &kp LG(LC(Q))  &trans  &kp LG(MINUS)  &kp LG(PLUS)  &kp LG(LS(NUMBER_4))                                                   &kp C_PP              &kp RG(LEFT_ARROW)      &kp UP_ARROW             &kp RG(RIGHT_ARROW)  &kp LC(UP_ARROW)  &kp F12
 &trans  &trans         &trans  &trans         &mo 2         &trans                                                                 &kp C_AC_SEARCH       &kp LA(LEFT_ARROW)      &kp DOWN_ARROW           &kp LA(RIGHT_ARROW)  &kp COLON         &kp DOUBLE_QUOTES
-&trans  &trans         &trans  &kp LG(C)      &trans        &kp LG(V)             &mt LEFT_ALT C_VOLUME_DOWN    &kp C_VOLUME_UP    &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_3))    &kp LS(LG(NUMBER_5))     &trans               &trans            &kp LS(RETURN)
+&trans  &kp LG(Z)      &trans  &kp LG(C)      &trans        &kp LG(V)             &mt LEFT_ALT C_VOLUME_DOWN    &kp C_VOLUME_UP    &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_3))    &kp LS(LG(NUMBER_5))     &trans               &trans            &kp LS(RETURN)
                                &trans         &trans        &trans                &trans                        &kp LA(BACKSPACE)  &kp C_MUTE            &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))
             >;
 
@@ -106,9 +106,9 @@
             bindings = <
 &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 0                           &trans        &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans        &trans                                 &kp PERCENT   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
-&to 0   &trans        &trans        &trans        &trans        &trans                                 &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COMMA     &kp COLON
+&trans  &trans        &trans        &trans        &trans        &trans                                 &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COMMA     &kp COLON
 &trans  &trans        &trans        &trans        &trans        &trans        &trans    &kp EQUAL      &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
-                                    &trans        &trans        &trans        &to 0     &kp BACKSPACE  &kp NUMBER_0  &trans        &trans
+                                    &trans        &trans        &trans        &trans    &kp BACKSPACE  &kp NUMBER_0  &kp PERIOD    &trans
             >;
         };
     };
