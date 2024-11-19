@@ -44,7 +44,7 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp LA(LC(F))     &kp LC(LA(E))  &kp LC(LA(V))  &kp LC(LA(I))  &kp LC(LA(O))  &kp LC(LA(D))                                             &kp LG(LS(E))    &kp LG(LS(I))  &none      &none    &none          &none
+&kp LA(LC(F))     &kp LC(LA(E))  &kp LC(LA(V))  &kp LC(LA(I))  &kp LC(LA(O))  &kp LC(LA(D))                                             &kp LG(LS(E))    &kp LG(LS(L))  &none      &none    &none          &none
 &kp TAB           &kp Q          &kp W          &kp F          &kp P          &kp B                                                     &kp J            &kp L          &kp U      &kp Y    &kp SEMICOLON  &kp SINGLE_QUOTE
 &mo 3             &kp A          &kp R          &kp S          &kp T          &kp G                                                     &kp M            &kp N          &kp E      &kp I    &kp O          &kp MINUS
 &mt LSHFT ESCAPE  &kp Z          &kp X          &kp C          &kp D          &kp V             &kp LG(UP_ARROW)    &kp LG(LEFT_ARROW)  &kp K            &kp H          &kp COMMA  &kp DOT  &kp SLASH      &kp RETURN
