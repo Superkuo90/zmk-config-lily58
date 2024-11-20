@@ -82,11 +82,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&none           &none                 &none                 &none        &none                  &none                                                                 &none             &trans              &trans          &trans               &trans     &none
-&kp LS(LG(V))   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp AT_SIGN  &kp AMPERSAND          &kp LC(UP_ARROW)                                                      &trans            &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp RC(RIGHT_ARROW)  &kp COLON  &kp DOUBLE_QUOTES
-&trans          &trans                &kp COLON             &kp EQUAL    &kp RIGHT_PARENTHESIS  &kp QUESTION                                                          &kp LG(LA(M))     &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &none      &none
-&kp LEFT_SHIFT  &trans                &trans                &kp DOLLAR   &kp HASH               &kp EXCLAMATION        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &none             &kp PLUS            &none           &none                &none      &kp RS(RETURN)
-                                                            &trans       &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &trans                  &trans                 &kp RA(UP_ARROW)  &kp RA(DOWN_ARROW)  &kp RA(RS(K))
+&none           &none                 &none                 &none        &none                  &none                                                             &none             &trans              &kp RG(UP_ARROW)    &trans               &trans     &none
+&kp LS(LG(V))   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp AT_SIGN  &kp AMPERSAND          &kp LC(UP_ARROW)                                                  &trans            &kp LC(LEFT_ARROW)  &kp UP_ARROW        &kp RC(RIGHT_ARROW)  &kp COLON  &kp DOUBLE_QUOTES
+&trans          &trans                &kp COLON             &kp EQUAL    &kp RIGHT_PARENTHESIS  &kp QUESTION                                                      &kp LG(LA(M))     &kp LEFT_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW      &none      &none
+&kp LEFT_SHIFT  &trans                &trans                &kp DOLLAR   &kp HASH               &kp EXCLAMATION        &kp LG(LEFT_ARROW)    &kp RG(RIGHT_ARROW)  &none             &kp PLUS            &kp RG(DOWN_ARROW)  &none                &none      &kp RS(RETURN)
+                                                            &trans       &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &trans                &trans               &kp RA(UP_ARROW)  &kp RA(DOWN_ARROW)  &kp RA(RS(K))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
