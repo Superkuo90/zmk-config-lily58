@@ -63,11 +63,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans          &kp F1         &kp F2     &kp F3         &kp F4                &kp F5                                                                  &kp F6                  &kp F7              &kp F8                   &kp F9               &kp F10  &kp F11
-&trans          &kp LG(LC(Q))  &trans     &kp LG(MINUS)  &kp LG(PLUS)          &kp LG(LS(NUMBER_4))                                                    &kp C_PP                &kp RG(LEFT_ARROW)  &kp UP_ARROW             &kp RG(RIGHT_ARROW)  &none    &none
-&trans          &trans         &trans     &trans         &mo 2                 &trans                                                                  &kp C_AC_SEARCH         &kp LA(LEFT_ARROW)  &kp DOWN_ARROW           &kp LA(RIGHT_ARROW)  &none    &kp MINUS
-&kp LEFT_SHIFT  &kp LG(Z)      &kp LG(X)  &kp LG(C)      &kp LG(D)             &kp LG(V)              &mt LEFT_ALT C_VOLUME_DOWN    &kp C_VOLUME_UP    &kp C_VOLUME_DOWN       &kp C_VOLUME_UP     &kp C_MUTE               &trans               &trans   &kp LS(RETURN)
-                                          &trans         &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans                        &kp LA(BACKSPACE)  &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT))   &kp LG(LA(RIGHT_ARROW))
+&trans          &kp F1         &kp F2     &kp F3         &kp F4                &kp F5                                                                  &kp F6                  &kp F7                  &kp F8                   &kp F9               &kp F10  &kp F11
+&kp GRAVE       &kp LG(LC(Q))  &trans     &kp LG(MINUS)  &kp LG(PLUS)          &kp LG(LS(NUMBER_4))                                                    &kp C_PP                &kp RG(LEFT_ARROW)      &kp UP_ARROW             &kp RG(RIGHT_ARROW)  &none    &none
+&trans          &trans         &trans     &trans         &mo 2                 &trans                                                                  &kp C_AC_SEARCH         &kp LA(LEFT_ARROW)      &kp DOWN_ARROW           &kp LA(RIGHT_ARROW)  &none    &kp MINUS
+&kp LEFT_SHIFT  &kp LG(Z)      &kp LG(X)  &kp LG(C)      &kp LG(D)             &kp LG(V)              &mt LEFT_ALT C_VOLUME_DOWN    &kp C_VOLUME_UP    &kp C_VOLUME_DOWN       &kp C_VOLUME_UP         &kp C_MUTE               &trans               &trans   &kp LS(RETURN)
+                                          &trans         &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans                        &kp LA(BACKSPACE)  &kp LG(LA(LEFT_ARROW))  &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
